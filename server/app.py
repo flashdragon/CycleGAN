@@ -1,17 +1,25 @@
-from flask import Flask, request
+from flask import Flask, request, send_file
+from flask_cors import CORS
 from service import translate
+from werkzeug.utils import secure_filename
 import json
 
 app = Flask(__name__)
+CORS(app)
+@app.route('/')
+def wwww():
+
+    return "ww";
+
+
 
 
 @app.route('/', methods = ['POST'])
-def extract_highlight_times():
-    params = json.loads(request.get_data())
-    if len(params) == 0:
-        return json.dumps({'success' : False, 'time' : []})
-
-    return json.dumps({'success' : True, 'time' : result})
+def translateimage():
+    f = request.files['file']
+    f.save("./image/"+secure_filename(f.filename))
+    filename='.\\image\\4844583611111.jpg'
+    return send_file(filename,mimetype='image/jpg')
 
 
 if __name__ == '__main__':
