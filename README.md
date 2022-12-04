@@ -30,11 +30,11 @@ Library : tensorflow
 
 ---
 
-![image]()
+![image](https://github.com/flashdragon/generatecat/blob/master/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%8B%9C%ED%80%80%EC%8A%A4%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.PNG)
 
 
 ## 실험 결과
 
 ---
 
-![image](https://github.com/flashdragon/generatecat/blob/master/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%8B%9C%ED%80%80%EC%8A%A4%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.PNG)
+![image]()
